@@ -1,1 +1,3 @@
-# Welcome to my Repository where I document all my coding practice!
+# Welcome!
+
+Welcome to my repository where I document all my coding practice.
