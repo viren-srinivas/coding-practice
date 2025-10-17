@@ -15,10 +15,4 @@ public class removeDuplicatesArray {
         return hashSet.stream().
                         mapToInt(Integer::intValue).toArray().length;
     }
-    public static void main(String[] args) {
-        removeDuplicatesArray removeDuplicatesArray = new removeDuplicatesArray();
-        int[] nums = {1,1,2,2,3,3,4,4,5,5};
-        int result = removeDuplicatesArray.removeDuplicates(nums);
-        System.out.println("Array length: " + result);
-    }
 }

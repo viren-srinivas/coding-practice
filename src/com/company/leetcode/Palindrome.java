@@ -18,9 +18,4 @@ public class Palindrome {
 
         return val.contentEquals(pali);
     }
-
-    public static void main(String[] args){
-        System.out.println(isPalindrome(999));
-    }
-
 }

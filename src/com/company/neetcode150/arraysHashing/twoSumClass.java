@@ -17,9 +17,4 @@ public class twoSumClass {
 
     return nums;
     }
-
-    public static void main (String [] args){
-        System.out.println(Arrays.toString(new twoSumClass().twoSum(new int[]{2, 11,
-                7, 15}, 9)));
-    }
 }

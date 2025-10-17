@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-public class containsDuplicateClass {
+public class containsDuplicate {
     //Solution takes too much time for a large data set
     public boolean containsDuplicate(int[] nums) {
         ArrayList<Integer> distinctList = new ArrayList<>();
@@ -29,8 +29,4 @@ public class containsDuplicateClass {
         return false;
     }
 
-    public static void main(String [] args) {
-        System.out.println(new containsDuplicateClass().containsDuplicateCorrect(new int[]{1, 2, 3, 1
-        }));
-    }
 }
