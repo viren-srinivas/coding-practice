@@ -1,4 +1,4 @@
-package com.company.leetcode;
+package java.leetcode;
 
 public class Palindrome {
     public static boolean isPalindrome(int x) {

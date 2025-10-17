@@ -1,4 +1,4 @@
-package com.company.neetcode150.twoPointers;
+package java.neetcode150.twoPointers;
 
 import java.util.ArrayList;
 
