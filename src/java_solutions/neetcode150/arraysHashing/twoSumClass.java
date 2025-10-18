@@ -1,4 +1,4 @@
-package java.neetcode150.arraysHashing;
+package java_solutions.neetcode150.arraysHashing;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -10,11 +10,10 @@ public class twoSumClass {
         for(int i=0;i<nums.length;i++){
             Integer complementIndex = complements.get(nums[i]);
             if(complementIndex!=null){
-                return new int []{i,complementIndex};
+                return new int []{complementIndex, i};
             }
             complements.put(target-nums[i],i);
         }
-
     return nums;
     }
 }

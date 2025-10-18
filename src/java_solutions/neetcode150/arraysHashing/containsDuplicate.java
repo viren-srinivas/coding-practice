@@ -1,4 +1,4 @@
-package java.neetcode150.arraysHashing;
+package java_solutions.neetcode150.arraysHashing;
 
 import java.util.ArrayList;
 import java.util.HashSet;

@@ -1,5 +1,7 @@
-package java.neetcode150;
+package java_solutions.neetcode150;
 
+
+import java.util.HashMap;
 
 public class Practice {
 
