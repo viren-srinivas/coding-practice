@@ -1,4 +1,4 @@
-package java_solutions.SlidingWindow;
+package java_solutions.neetcode150.SlidingWindow;
 
 public class BuySellStock {
     public int maxProfit(int[] prices) {
