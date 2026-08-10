@@ -1,8 +1,6 @@
 package java_solutions.neetcode150.Stack;
 
-import java_solutions.neetcode150.Practice;
 
-import java.util.HashMap;
 import java.util.Stack;
 
 public class ValidParentheses {
@@ -27,7 +25,5 @@ public class ValidParentheses {
         }
         return stackParantheses.isEmpty();
     }
-    public static void main(String[] args) {
-        System.out.println(new ValidParentheses().isValid("{[]}"));
-    }
+
 }

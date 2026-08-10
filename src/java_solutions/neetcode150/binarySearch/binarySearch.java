@@ -21,7 +21,4 @@ public class binarySearch {
         return -1;
     }
 
-    public static void main(String[] args) {
-        System.out.println(new binarySearch().search(new int []{-1,0,3,5,9,12}, 3));
-    }
 }
